@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='style.css'>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <img src="a.png" width="600px" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT ME</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">MY WORKS</a></li>
+                <li><a href="#">CONTACT ME</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="image">
+            <img src="user.png" width="600px" class="girl">
+        </div>
+
+        <div class="info">
+            <h3>Hi, I'm <span>Sandhya</span></h3>
+            <h1><span>S</span>OFTWARE <span>E</span>NGINEER</h1>
+            <h3>In Training</h3>
+            <a href="#">Hire me</a>
+        </div>
+        
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <div id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="ABOUT-col-1">
+                    <img src="clg.png">
+                </div>
+                <div class="ABOUT-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>My career objective is to contribute to the growth and success of the organization by utilizing my software engineering skills and expertise to develop efficient and reliable software solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="skills">
+                        <ul>
+                            <li><span>html, css</span><br> webpage design</li>
+                            <li><span>Core java</span><br>technical skill</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab"id="Education">
+                        <ul>
+                            <li><span>B.tech</span><br>2022<br>Sasi Institute of Technology & Engineering</li>
+                            <li><span>Intermediate</span><br>2018<br>Vikas Junior & Degree College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
